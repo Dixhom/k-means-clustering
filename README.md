@@ -1,6 +1,9 @@
 # k-means clustering
 A simple implementation of k-means clustering.
 
+# Install
+`pip install git+https://github.com/Dixhom/k-means-clustering`
+
 # Usage
 ```python
 from k_means_clustering.k_means_clustering import KMeansClustering
