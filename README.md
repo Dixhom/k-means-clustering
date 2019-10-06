@@ -18,7 +18,15 @@ y = dat[1]
 # max_iter is the maximum number of iteration to update centroids
 kmeans = KMeansClustering(n_classes=3, max_iter=10000)
 kmeans.fit(X,y)
+
+# the centroids of the clusters
 print(kmeans.centroids)
+# the history of the centroids of the clusters
+print(kmeans.centroid_history)
+# the classes of the observations
+print(kmeans.class_)
+# the history of the classes of the observations
+print(kmeans.class_history)
 ```
 
 # Licence
