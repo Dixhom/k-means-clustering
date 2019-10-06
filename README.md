@@ -23,3 +23,6 @@ print(kmeans.centroids)
 
 # Licence
 MIT
+
+# Appendix
+An experimental code is in `prototype` directory.
